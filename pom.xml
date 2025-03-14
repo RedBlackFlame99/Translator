@@ -59,6 +59,10 @@
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
+        <repository>
+            <id>dynomakeRepository</id>
+            <url>https://maven.dynomake.space/releases</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -67,6 +71,11 @@
             <artifactId>paper-api</artifactId>
             <version>1.21.4-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>space.dynomake</groupId>
+            <artifactId>libretranslate-java</artifactId>
+            <version>1.0.9</version>
         </dependency>
     </dependencies>
 </project>
